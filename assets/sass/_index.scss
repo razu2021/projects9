@@ -1,0 +1,97 @@
+.services{
+    padding: 1rem;
+    transition: .35s all;
+    &:hover{
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        .service_icon{
+            span{
+                font-size: 3.8rem;
+                background: transparent;
+                padding: 1.5rem;
+                border-radius: 40%;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                color:#000;
+                border: .1rem solid #ffbc13;
+            }
+        }
+    }
+
+}
+
+.services_content{
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+    .service_icon{
+        padding: 1rem;
+        span{
+            font-size: 3.8rem;
+            background: #ffbc13;
+            padding: 1.5rem;
+            border-radius: 40%;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            color:#fff;
+            
+        }
+    }
+    .services_des{
+        padding: .5rem;
+        h1{
+            font-size: 2.5rem;
+            display: block;
+            color: gray;
+        }
+        p{
+            text-align: justify;
+            font-size: 1.7rem;
+            color: gray;
+        }
+    }
+}
+// service end 
+.futurebgimage{
+    background-image: url('../images/future.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.futurebg{
+    // background: rgba(0, 0, 0, 0.62);
+}
+.future_slider{
+    position: relative;
+    background: #fff;
+    text-align: cover;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    &:hover{
+        border-radius: 1rem;
+
+    }
+}
+.future_image{
+    height: 40rem;
+    width: 100%;
+    object-fit: cover;
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 1rem;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    }
+}
+.future_work_content{
+    padding: 2rem 0rem;
+    h4{
+        color: #ffbc13;
+        font-size: 2.5rem;
+    }
+    p{
+        font-size: 1.6rem;
+    }
+}
+// future end 

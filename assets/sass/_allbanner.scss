@@ -1,0 +1,156 @@
+// index banner 
+.slider_section_bg{
+    background: #ffbc13;
+}
+.overlay_index{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background:rgba(255, 255, 255, 0.30);
+}
+.owl-theme .owl-nav .index_banner_slider{
+    margin-bottom: 0;
+}
+.slider_item {
+    position: relative;
+    height: 70rem;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    .slider_image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%; /* Adjusted */
+        width: 100%;
+        object-fit: cover;
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            animation: scale 5s linear infinite;
+        }
+    }
+}
+@keyframes scale {
+    100% {
+        transform: scale(1.5);
+    }
+}
+
+.slider_text{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    top: 25rem;
+    z-index: 1035;
+    p{
+        font-size: 2.2rem;
+        letter-spacing: 1rem;
+        font-weight: 600;
+    }
+    h1{
+        @include heading1;
+        text-transform: capitalize;
+        font-weight: 900;
+        font-size: 7rem;
+        span{
+            color: red;
+        }
+    }
+
+   
+}
+// next & prev button 
+.prev{
+    position: absolute;
+    bottom: 10rem;
+    left: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px !important;
+    height: 40px;
+    width: 40px ;
+    border-radius: 2px ;
+    color: #000;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    transition: 0.35 linear;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    animation:zoomIn 3s linear; 
+    &:hover{
+        background-color: #ffbc13;
+        border-left: 2px solid #ffff;
+        border-right: 2px solid #ffff;
+        transition: 0.35 linear;
+        color: #ffff;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    }
+    .next {
+        position: absolute;
+        bottom: 15rem;
+        right: 50%;
+        background-color: #fff;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 28px !important;
+        height: 40px;
+        width: 40px ;
+        border-radius: 2px ;
+        color: #000;
+        border-left: 2px solid red;
+        border-right: 2px solid red;
+        transition: 0.35 linear;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        animation:zoomIn 3s linear;
+        &:hover{
+            background-color:#ffbc13;;
+            border-left: 2px solid #ffff;
+            border-right: 2px solid #ffff;
+            transition: 0.35s linear;
+            color: #ffff;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+    
+        }
+// index banner slider end herre 
+        .owl-carousel .owl-item.active .slider_item .slider_text p{
+            animation: zoomIn 2s linear; 
+        }
+        .owl-carousel .owl-item.active .slider_item .slider_text h1{
+            animation: zoomIn 2s linear; 
+        }
+        .owl-carousel .owl-item.active .slider_item .slider_text button{
+            animation: zoomIn 2s linear; 
+        }
+        .owl-carousel .owl-item.active .slider_item .slider_text{
+            animation: zoomIn 2s linear; 
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+            padding: 2rem;
+        }
+.bottom_content_index{
+    padding: 2.5rem;
+    a{
+        color: gray;
+        display: inline-block;
+        &:hover{
+            color: red;
+            transition: 0.35s all;
+            padding-left: 2rem;
+        }
+    }
+}
+// endex banner end 

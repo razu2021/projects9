@@ -1,0 +1,113 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    html{
+        font-size: 40%;
+    }
+    .main_menu{
+      display: none;
+    }
+    .left_bar{
+      display: none;
+    }
+    .header_top{
+      background:#ffbc13;
+    } 
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    html{
+        font-size: 45%;
+    }
+    .main_menu{
+      display: none;
+    }
+    .left_bar{
+      display: none;
+    }
+    .header_top{
+      background:#ffbc13;
+    } 
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    html{
+        font-size: 50%;
+    }
+    .main_menu{
+     display: none;
+      
+    }
+    .left_bar{
+      display: none;
+    }
+    .header_top{
+      background:#ffbc13;
+    } 
+
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    html{
+        font-size: 55%;
+    }
+    .main_menu{
+      display: block;
+
+    }
+    .mobile_icon{
+      display: none;
+    }
+    .left_bar{
+      display: block;
+    }
+    .header_top{
+      background:#ffbc13;
+    } 
+    .left_bar{
+      ul li{
+          display: inline-block;
+          padding: 1rem;
+          a{
+              font-size: 1.6rem;
+              color: #fff;
+              text-transform: capitalize;
+          &:hover{
+              color: #000;
+              transition: 1s all;
+          }
+          span{
+              color: #fff;
+              padding-right: .5rem;
+              margin: 0;
+              font-size: 1.6rem;
+          }
+          }
+      }
+  
+  }
+
+
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    html{
+        font-size: 62.5%;
+    }
+    body{
+       overflow-x: hidden;
+    }
+    .main_menu{
+      display: block;
+    }
+    .mobile_icon{
+      display: none;
+    }
+    .header_top{
+      background: #ffbc13;
+      
+  }
+  }

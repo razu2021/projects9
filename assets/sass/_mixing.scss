@@ -1,0 +1,185 @@
+@import "_medias";
+h1{
+    font-size: 3.4rem;
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 2.4rem;
+}
+h4{
+    font-size: 2rem;
+}
+h5{
+    font-size: 1.8rem;
+}
+h6{
+    font-size: 1.6rem;
+}
+
+p{
+    color: #000;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+ol,ul,li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #000;
+    padding: 0;
+    margin: 0;
+}
+
+
+.section-padding{
+    padding: 5rem 0rem;
+}
+.content-padding{
+    padding: 1rem;
+}
+// comon button
+.comon_button{
+    margin-top: 1rem;
+    button{
+        border: none;
+        background: #ffbc13;
+        padding: 1rem 1.5rem;
+        border-radius: .5rem;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        &:hover{
+            padding: 1rem 2rem;
+            transition: 0.35s all;
+        }
+        
+        a{
+            color: #fff;
+            text-transform: capitalize;
+            font-size: 1.5rem;
+            &:hover{
+                color: red;
+                transition: 0.35s all;
+            }
+
+        }
+    }
+}
+// comon button end 
+.comon_button2{
+    margin-top: 1rem;
+    button{
+        border: none;
+        background: #fff;
+        padding: 1rem 1.5rem;
+        border-radius: .5rem;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        &:hover{
+            padding: 1rem 2rem;
+            transition: 0.35s all;
+        }
+        
+        a{
+            color: #000;
+            text-transform: capitalize;
+            font-size: 1.5rem;
+            &:hover{
+                color: red;
+                transition: 0.35s all;
+            }
+
+        }
+    }
+}
+// comon button end 
+.common_heading{
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    display: block;
+    align-items: center;
+    p{
+        color: red;
+        font-size: 2.2rem;
+    }
+    h1{
+        font-size: 4.5rem;
+        font-family: 'Roboto',sans-serif;
+        font-weight: 700;
+        text-transform: capitalize;
+
+         span{
+            color: red;
+            &::after{
+                content: '';
+                height: .2rem;
+                width: 6rem;
+                background: red;
+                display: inline-block;
+     
+             }
+            &::before{
+                content: '';
+                height: .2rem;
+                width: 6rem;
+                background: red;
+                display: inline-block;
+     
+             }
+         }
+
+      
+    }
+    strong{
+        font-size: 1.8rem;
+        color: #000;
+        padding: 0rem 2rem ;
+        font-weight: 200;
+    }
+}
+// affter & beffor code 
+
+@mixin heading3{
+    content: '';
+    height: .1rem;
+    width: 5rem;
+    background: white;
+    display: block;
+    bottom: 0;
+}
+
+.sticky{
+    position:sticky ;
+    top: 0;
+    left: 0;
+    z-index: 1;
+   
+}
+.teamprofile{
+    border-radius: 1rem;
+    &:hover{
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+        border-bottom: .3rem solid red ;
+        border-right: .3rem solid red ;
+        border-radius: 1rem;
+        transition: 1s all;
+    }
+    
+}
+
+.team_banner_bg{
+    background: linear-gradient(135deg, rgba(65,65,65,0.87718837535014) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 64%);
+}
+
+@mixin heading1{
+    font-size: 4.5rem;
+    font-weight: 700;
+    font-family: 'Roboto',sans-serif;
+}
