@@ -183,3 +183,14 @@ a{
     font-weight: 700;
     font-family: 'Roboto',sans-serif;
 }
+// accordion css
+.accordion-header {
+    button{
+        font-size: 1.8rem;
+    }
+}
+.accordion-body{
+    p{
+        font-size: 1.6rem;
+    }
+}

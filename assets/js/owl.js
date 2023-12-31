@@ -49,3 +49,29 @@ $(document).ready(function(){
     });
   });
 // index service slider end here 
+$(document).ready(function(){
+    $(".index_testimonials").owlCarousel({
+        items:2,
+        autoplay:true,
+        loop:true,
+        nav: false,
+        dots:false,
+        margin:10,
+        mouseDrag:true,
+       dots:true,
+        responsive:{
+            0:{
+                items:1,
+                nav: false,
+            },
+            600:{
+                items:1,
+                nav: false,
+            },
+            1000:{
+                items:2
+            }
+        }
+    });
+  });
+// index service slider end here 
