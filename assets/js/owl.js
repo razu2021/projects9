@@ -75,3 +75,29 @@ $(document).ready(function(){
     });
   });
 // index service slider end here 
+$(document).ready(function(){
+    $(".about_our_team").owlCarousel({
+        items:3,
+        autoplay:true,
+        loop:true,
+        nav: true,
+        margin:10,
+        mouseDrag:true,
+        navText: ["<span class='team_prev'>  <  </span>", "<span class='team_next'> > </span>"],
+       dots:false,
+        responsive:{
+            0:{
+                items:1,
+                nav: false,
+            },
+            600:{
+                items:1,
+                nav: false,
+            },
+            1000:{
+                items:3
+            }
+        }
+    });
+  });
+// index service slider end here 

@@ -1,0 +1,165 @@
+.about_banner{
+    .about_banner_bg{
+        background: #ececec;
+    }
+    .about_banner_content{
+        padding: 7rem 0rem;
+        justify-content: space-between;
+        display: flex;
+    }
+    .aboutheading{
+        border-bottom: .2rem solid #000;
+
+    }
+    .banner_menu{
+        ul{
+            text-align: right;
+            justify-content: right;
+            li{
+                display: inline-block;
+                padding: .5rem 1rem ;
+                a{
+                    color: red;
+                    text-transform: uppercase;
+                    border-bottom: .3rem solid #000 ;
+                    &:hover{
+                        color: #000;
+                        text-transform: uppercase;
+                        font-size: 1.8rem;
+                    }
+                }
+            }
+        } 
+    }
+}
+// banner css end here 
+.about_histroy{
+    padding: 1rem ;
+    h1{
+        font-size: 3.2rem;
+        text-transform: uppercase;
+        display: inline-block;
+        border-bottom: .1rem solid #ffbc13;
+        &::after{
+            height: .5rem;
+            width: 6rem;
+            display: block;
+            content: '';
+            background: #ffbc13;
+            
+        }
+        span{
+            color:#ffbc13;
+
+        }
+        
+    }
+    p{
+        text-align: justify;
+        font-size: 1.7rem;
+        font-weight: 200;
+        font-style: italic;
+    }
+    .about_aciv{
+        justify-content: space-around;
+        display: flex;
+        padding: 2rem 0rem;
+        text-align: center;
+        h2{
+            span{
+                color: #ffbc13;
+            }
+        }
+    }
+}
+.about_histroy_image{
+    padding: 1rem;
+    img{
+        border-radius: 1rem;
+    }
+}
+// about end 
+.siencebg_image{
+    background-image: url('../images/sience.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    .sincebg{
+        background: rgba(0,0,0,0.50);
+    }
+    .since_content{
+        padding: 7rem 0rem;
+        text-align: center;
+        h1{
+            font-size: 4.5rem;
+            font-weight: 700;
+            padding: 1rem 0rem ;
+            color: #ffbc13;
+        }
+    }
+}
+// end 
+.team_slider{
+    position: relative;
+}
+.team_prev{
+    
+    top: 0;
+    right: 10%;
+    background-color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px !important;
+    height: 40px;
+    width: 40px ;
+    border-radius: 2px ;
+    color: #000;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    transition: 0.35 linear;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    animation:zoomIn 3s linear; 
+    &:hover{
+        background-color: #ffbc13;
+        border-left: 2px solid #ffff;
+        border-right: 2px solid #ffff;
+        transition: 0.35 linear;
+        color: #ffff;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    }
+    .team_next {
+       
+        top: 0;
+        right: 0;
+        background-color: #fff;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 28px !important;
+        height: 40px;
+        width: 40px ;
+        border-radius: 2px ;
+        color: #000;
+        border-left: 2px solid red;
+        border-right: 2px solid red;
+        transition: 0.35 linear;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        animation:zoomIn 3s linear;
+        &:hover{
+            background-color:#ffbc13;;
+            border-left: 2px solid #ffff;
+            border-right: 2px solid #ffff;
+            transition: 0.35s linear;
+            color: #ffff;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+    
+        }
+
+

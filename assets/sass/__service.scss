@@ -1,0 +1,168 @@
+.all_service{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin-top: 1rem;
+    text-align: center;
+    &:hover .service_image img{
+        transform: scale(1.5);
+        transition: .35s all ;
+    }
+    .service_image{
+        overflow: hidden;
+        img{
+            height: 20rem;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .service_content{
+        padding: 2rem 1rem ;
+        
+        h4{
+            font-weight: 600;
+            color: #ffbc13;
+            font-size:2.3rem;
+        }
+        p{
+            font-size: 1.7rem;
+            justify-content: center;
+            text-align: center;
+        }
+        a{
+            color: #000;
+            transition: .35s all;
+            padding: 2rem 0rem ;
+            &:hover{
+                color: red ;
+            }
+        }
+
+    }
+}
+
+// protfolio conetnt is here
+.protfolio_images{
+    margin-top: 1.5rem;
+    img{
+        height: 50rem;
+        width: 100%;
+        object-fit: cover;
+
+    }
+}
+
+.all_blog{
+    padding: 2rem;
+    .blog_image{
+        img{
+            height: 40rem;
+            width: 100%;
+            object-fit: cover;
+            padding: 0rem 3rem;
+        }
+    }
+    .blog_content{
+        padding: 3rem;
+        h4{
+            font-size: 3rem;
+            color: #ffbc13;
+            font-weight: 700;
+        }
+        h6{
+            font-size: 1.7rem;
+            font-style: italic;
+            color: gray;
+            background: #d8d8d8;
+            padding: 1rem ;
+        }
+        p{
+            font-size: 1.7rem;
+            font-style: italic;
+            color: gray;
+            background: #d8d8d8;
+            padding: 1rem ;
+        }
+    }
+}
+
+// team page 
+.teamprofiles{
+    border-left: 1rem solid #ffbc13;
+}
+.team_profile{
+    img{
+        height: 40rem;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.offer_image{
+    img{
+        height: 50rem;
+        width: 100%;
+    }
+}
+.offer_con{
+    padding: 1rem 3rem;
+    h2{
+        font-size: 3rem;
+        font-weight: 700;
+        font-style: italic;
+    }
+    p{
+        font-size: 1.9rem;
+        color: gray;
+        font-style: italic;
+        text-align: justify;
+    }
+}
+.offers2{
+    background: #ececec;
+    transition: 1s all;
+    &:hover{
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+}
+.offers1{
+    background: #fff;
+    transition: 1s all;
+    &:hover{
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

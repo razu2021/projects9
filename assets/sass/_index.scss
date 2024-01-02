@@ -123,6 +123,22 @@
     }
 }
 // testimonial
+.testi_content{
+    justify-content: right;
+    text-align: right;
+    padding: 1rem 2rem ;
+    h1{
+        color: #000;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 4.5rem;
+        span{
+            color: #ffbc13;
+            text-transform: capitalize;
+            border-bottom: .1rem solid gray;
+        }
+    }
+}
 .testi_item{
     padding: 1rem 0rem;
     position: relative;
@@ -155,7 +171,7 @@
             font-size: 3.8rem ;
             font-weight: 700;
             color: #fff;
-            padding: .5rem .2rem ;
+            padding: .5rem 2rem ;
             text-transform: capitalize;
             span{
                 color: #000;
@@ -182,3 +198,41 @@
         }
     }
 }
+// partner
+.ptbg{
+    background: #e7e7e7;
+}
+.our_partner{
+    justify-content:space-around;
+    .partner_image{
+        margin: 1rem;
+        img{
+            height: 13rem;
+            width: auto;
+            margin: 1rem;
+            display: inline-block;
+        }
+    }
+}
+.partnere_area_content{
+    padding: 1rem;
+    p{
+        background: rgb(226, 226, 226);
+        padding: 1.5rem;
+        width: 100%;
+        text-align: justify;
+        font-size: 1.6rem;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    }
+    h1{
+        font-size: 4.2rem;
+        font-weight: 700;
+        color: gray;
+        text-transform: uppercase;
+        padding: 2rem 0rem;
+        span{
+            color: green;
+        }
+    }
+}
+
